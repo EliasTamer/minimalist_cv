@@ -86,6 +86,15 @@ export const RESUME_DATA = {
   skills: ["React/Next.js", "Node.js", "TypeScript", "JavaScript", "jQuery", "Python", "Docker"],
   projects: [
     {
+      title: "Comin",
+      techStack: ["TypeScript", "Next.js", "Node.js"],
+      description:"Comin's web app to purchase your insurance plans online.",
+      link: {
+        label: "Comin",
+        href: "https://www.comin.insure/lb/en-us",
+      },
+    },
+    {
       title: "IQOS",
       techStack: ["HTML", "SCSS", "JavaScript", "jQuery"],
       description:
@@ -99,7 +108,7 @@ export const RESUME_DATA = {
       title: "Born Interactive",
       techStack: ["TypeScript", "Next.js", "Node.js"],
       description:
-        "Integrated Communication Agency specialized in Web, Mobile and Social Media",
+        "Integrated Communication Agency specialized in web, mobile and social media.",
       link: {
         label: "Born Interactive",
         href: "https://www.borninteractive.com/",
@@ -153,7 +162,7 @@ export const RESUME_DATA = {
     {
       title: "Netflix Clone",
       techStack: ["Side Project", "TypeScript", "Next.js", "Node.js"],
-      description: "Netflix app clone.",
+      description: "Netflix clone.",
       link: {
         label: "threads",
         href: "https://threads-app-hazel-three.vercel.app/",
