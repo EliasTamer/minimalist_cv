@@ -83,8 +83,64 @@ export const RESUME_DATA = {
         "Designed, developed and maintained software systems, employing a combination of programming languages, algorithms, and problem-solving skills to create efficient and reliable solutions for diverse applications. Technologies: React, TypeScript, .NET.",
     },
   ],
-  skills: ["React/Next.js", "Node.js", "TypeScript", "JavaScript", "jQuery"],
+  skills: ["React/Next.js", "Node.js", "TypeScript", "JavaScript", "jQuery", "Python", "Docker"],
   projects: [
+    {
+      title: "IQOS",
+      techStack: ["HTML", "SCSS", "JavaScript", "jQuery"],
+      description:
+        "E-commerce website that lets you browse and purchase IQOS' products and accessories.",
+      link: {
+        label: "IQOS",
+        href: "https://lb.iqos.com/en",
+      },
+    },
+    {
+      title: "Born Interactive",
+      techStack: ["TypeScript", "Next.js", "Node.js"],
+      description:
+        "Integrated Communication Agency specialized in Web, Mobile and Social Media",
+      link: {
+        label: "Born Interactive",
+        href: "https://www.borninteractive.com/",
+      },
+    },
+    {
+      title: "Al Riyad Group",
+      techStack: ["JavaScript/jQuery", "SCSS", "HTML"],
+      description: "Al Riyad Group's diverse lighting and power solutions.",
+      link: {
+        label: "Al Riyad Group",
+        href: "https://www.alriyad.iq/english/home",
+      },
+    },
+    {
+      title: "Evently",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Node.js"],
+      description: "Event planning app.",
+      link: {
+        label: "evently",
+        href: "https://evently-six-lilac.vercel.app/",
+      },
+    },
+    {
+      title: "Imaginify",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Node.js"],
+      description: "AI image SaaS platform.",
+      link: {
+        label: "evently",
+        href: "imaginify-peach-eight.vercel.app",
+      },
+    },
+    {
+      title: "Bank Audi Group",
+      techStack: ["JavaScript/jQuery", "SCSS", "HTML"],
+      description: "Bank Audi's group financials site.",
+      link: {
+        label: "Bank Audi Group",
+        href: "https://www.bankaudigroup.com/group/home",
+      },
+    },
     {
       title: "Threads Clone",
       techStack: ["Side Project", "TypeScript", "Next.js", "Node.js"],
@@ -101,15 +157,6 @@ export const RESUME_DATA = {
       link: {
         label: "threads",
         href: "https://threads-app-hazel-three.vercel.app/",
-      },
-    },
-    {
-      title: "Evently",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Node.js"],
-      description: "Event planning app.",
-      link: {
-        label: "evently",
-        href: "https://evently-six-lilac.vercel.app/",
       },
     },
     {
@@ -130,34 +177,6 @@ export const RESUME_DATA = {
       link: {
         label: "GFS",
         href: "",
-      },
-    },
-    {
-      title: "IQOS",
-      techStack: ["HTML", "SCSS", "JavaScript", "jQuery"],
-      description:
-        "E-commerce website that lets you browse and purchase IQOS' products and accessories.",
-      link: {
-        label: "IQOS",
-        href: "https://lb.iqos.com/en",
-      },
-    },
-    {
-      title: "Al Riyad Group",
-      techStack: ["JavaScript/jQuery", "SCSS", "HTML"],
-      description: "Al Riyad Group's diverse lighting and power solutions.",
-      link: {
-        label: "Al Riyad Group",
-        href: "https://www.alriyad.iq/english/home",
-      },
-    },
-    {
-      title: "Bank Audi Group",
-      techStack: ["JavaScript/jQuery", "SCSS", "HTML"],
-      description: "Bank Audi's group financials site.",
-      link: {
-        label: "Bank Audi Group",
-        href: "https://www.bankaudigroup.com/group/home",
       },
     },
   ],
